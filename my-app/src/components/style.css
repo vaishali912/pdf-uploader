@@ -1,0 +1,156 @@
+.auth-container {
+  max-width: 400px;
+  margin: 80px auto;
+  padding: 30px;
+  border: 1px solid #ccc;
+  border-radius: 16px;
+  background-color: #fdfdfd;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.auth-container h3 {
+  text-align: center;
+  margin-bottom: 24px;
+  color: #333;
+}
+
+.auth-container form {
+  display: flex;
+  flex-direction: column;
+}
+
+.auth-container input[type="text"],
+.auth-container input[type="password"] {
+  padding: 12px;
+  margin-bottom: 16px;
+  border: 1px solid #bbb;
+  border-radius: 8px;
+  font-size: 14px;
+}
+
+.auth-container input[type="text"]:focus,
+.auth-container input[type="password"]:focus {
+  outline: none;
+  border-color: #007BFF;
+  box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.2);
+}
+
+.auth-container .btn {
+  padding: 12px;
+  border: none;
+  background-color: #007BFF;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 15px;
+  transition: background-color 0.3s ease;
+}
+
+.auth-container .btn:hover {
+  background-color: #0056b3;
+}
+
+.auth-container span {
+  display: block;
+  margin-top: 20px;
+  text-align: center;
+  font-size: 14px;
+}
+
+.auth-container span a {
+  color: #007BFF;
+  text-decoration: none;
+  margin-left: 6px;
+}
+
+.auth-container span a:hover {
+  text-decoration: underline;
+}
+.pdf-container {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 25px;
+  background-color: #f9f9f9;
+  border-radius: 16px;
+  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.08);
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.pdf-container h3 {
+  margin-bottom: 20px;
+  color: #333;
+  text-align: center;
+}
+
+.pdf-container form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.pdf-container input[type="file"] {
+  margin-bottom: 12px;
+  font-size: 14px;
+}
+
+.pdf-container p {
+  margin-bottom: 12px;
+  font-size: 14px;
+  color: #555;
+}
+
+.pdf-container button,
+.btn-delete,
+.btn {
+  padding: 10px 16px;
+  margin: 6px;
+  font-size: 14px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.pdf-container button,
+.btn {
+  background-color: #007bff;
+  color: white;
+}
+
+.pdf-container button:hover,
+.btn:hover {
+  background-color: #0056b3;
+}
+
+.btn-delete {
+  background-color: #dc3545;
+  color: white;
+}
+
+.btn-delete:hover {
+  background-color: #a71d2a;
+}
+
+.pdf-list {
+  margin-top: 20px;
+  list-style: none;
+  padding: 0;
+}
+
+.pdf-list li {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  margin-bottom: 12px;
+  padding: 14px 18px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.admin-post-controls {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
